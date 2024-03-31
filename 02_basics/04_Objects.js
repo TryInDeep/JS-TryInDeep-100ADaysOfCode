@@ -55,13 +55,13 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); //* */
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); //* */
 
 // constructor
 // : 
@@ -105,3 +105,40 @@ console.log(tinderUser.hasOwnProperty('isLoggedIn')); //* */
 // set __proto__
 // : 
 // ƒ __proto__()
+
+
+// De Structure and JSON API 
+
+const course = {
+    courseName:"Js In Hindi ",
+    price:"999",
+    courseInstructor: "Tridip"
+}
+
+// course.courseInstructor  
+//DeSTructuring 
+const {courseInstructor: instructor } = course // this for shortcut 
+console.log(instructor);
+
+//props
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "Triip")
+
+
+//Json Value   ignor the error 
+// {
+//     "name": "Tridip",
+//     "courseName":"Js iN Hindi",
+//     "price": "Free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
+// https://randomuser.me/api/
