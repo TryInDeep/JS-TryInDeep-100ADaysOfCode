@@ -66,7 +66,26 @@ function loginUserMassage (username = "Tridip")
     return`${username} just logged in `
 }
 
-console.log(loginUserMassage("Aankhi"));
+// console.log(loginUserMassage("Aankhi"));
 // console.log(loginUserMassage(""));
 // console.log(loginUserMassage());
 
+// ....something (rest operator,spread operator)
+function calculateCardPrice (val1,val2, ...num1){
+    return num1
+}
+
+// console.log(calculateCardPrice(200,400,500,2000)); 
+
+
+const user = {
+    name:"Tridip",
+    Prices: 199
+}
+
+function handleObject(anyObject)
+{
+    console.log(`Username is ${anyObject.name} and price is ${anyObject.Price}} `);
+}
+
+handleObject(user);
