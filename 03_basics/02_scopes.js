@@ -21,8 +21,6 @@ if(true)
 // in website console and code environment scpopes are different 
 
 
-
-
 function one() {
     const username = "Tridip"
 
@@ -35,4 +33,37 @@ function one() {
     // two()
 }
 
-one()
+// one()
+
+if(true)
+{
+    const useranme = "Tridip"
+    if(useranme === "Tridip")
+    {
+        const website = " youtube"
+        // console.log(useranme + website);
+    }
+    // console.log(website); error
+}
+// console.log(useranme); error
+
+
+//++++++++++++++++++++++ Interesting ++++++++++++++++++++
+//HOISTING JAVASCRIPT
+
+//Basic Function
+// console.log(addOne(5)); 
+function addOne (num){
+    return num + 1;
+
+}
+console.log(addOne(5)); 
+
+
+// Expression or funnction 
+//addTwo(5); = > you cant do like this 
+const addTwo = function(num)
+{
+    return num + 2;
+}
+addTwo(5)
