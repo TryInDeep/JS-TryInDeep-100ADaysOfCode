@@ -20,8 +20,8 @@
 
 // Maps
 // MAPS is for unique values key pair 
-const map = new Map()
 
+const map = new Map()
 map.set('IN',"India")
 map.set('US',"United of America")
 map.set('FR',"France")
