@@ -45,6 +45,9 @@ myCoding.forEach((item)=> {
     console.log(item.languageName);
 })
 
+
+
+
 //[[Prototype]]
 // : 
 // Array(0)
